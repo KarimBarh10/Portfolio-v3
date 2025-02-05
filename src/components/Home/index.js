@@ -42,13 +42,14 @@ const Home = () => {
                 <div className="button-container">
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                     <a 
-                        href="/Portfolio-v3/karim_barhmed_resume.pdf" 
-                        className="flat-button"
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
-                        DOWNLOAD RESUME
-                    </a>
+    href={`${process.env.PUBLIC_URL}/portfolio/karim_barhmed_resume.pdf`} 
+    className="flat-button"
+    target="_blank" 
+    rel="noopener noreferrer"
+>
+    DOWNLOAD RESUME
+</a>
+
                 </div>
             </div>
             <Logo className="Home"/>
