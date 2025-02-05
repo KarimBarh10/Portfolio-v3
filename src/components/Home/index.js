@@ -42,13 +42,15 @@ const Home = () => {
                 <div className="button-container">
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                     <a
-  href={`${process.env.PUBLIC_URL}/portfolio/karim_barhmed_resume.pdf`}
+  href={`${process.env.PUBLIC_URL}/karim_barhmed_resume.pdf`}
   className="flat-button"
   target="_blank"
   rel="noopener noreferrer"
 >
   DOWNLOAD RESUME
 </a>
+
+
 
 
                 </div>
