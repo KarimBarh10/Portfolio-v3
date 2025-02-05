@@ -42,7 +42,7 @@ const Home = () => {
                 <div className="button-container">
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                     <a 
-                        href="/portfolio/karim_barhmed_resume.pdf" 
+                        href="/Portfolio-v3/karim_barhmed_resume.pdf" 
                         className="flat-button"
                         target="_blank" 
                         rel="noopener noreferrer"
